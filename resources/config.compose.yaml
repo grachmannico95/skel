@@ -1,0 +1,30 @@
+app:
+  name: "skel"
+  ver: "0.0"
+  port: "8000"
+  env: "dev"
+db:
+  mysql:
+    username: "root"
+    password: ""
+    host: "host.docker.internal"
+    port: "3306"
+    name: "skel"
+    connection:
+      maxIdle: 10
+      maxOpen: 100
+      maxLifetime: "1h"
+  redis:
+    host: "host.docker.internal"
+    port: "6379"
+    password: ""
+    dbNum: 10
+log:
+  severityLevel: 7
+constants:
+  accessTokenName: "access_token:"
+  accessTokenTTL: "15m"
+  accessTokenSecret: "12345678901234567890123456789012"
+  refreshTokenName: "refresh_token:"
+  refreshTokenTTL: "72h"
+  refreshTokenSecret: "21098765432109876543210987654321"

@@ -1,0 +1,36 @@
+success:
+  id: "success"
+  en: "success"
+err:
+  id: "general error"
+  en: "general error"
+errBindRequest:
+  id: "gagal untuk memproses permintaan"
+  en: "failed to bind request"
+errValidation:
+  id: "beberapa input tidak terpenuhi"
+  en: "some input are not fulfilled"
+errDataNotFound:
+  id: "tidak ditemukan"
+  en: "not found"
+errDataAlreadyUsed:
+  id: "sudah digunakan"
+  en: "already used"
+errDataDuplicate:
+  id: "duplikat"
+  en: "duplicate"
+errPasswordNotMatch:
+  id: "password tidak cocok"
+  en: "password not match"
+errUnauthenticated:
+  id: "tidak terotentikasi"
+  en: "unauthenticated"
+errUnauthorized:
+  id: "tidak diizinkan"
+  en: "unauthorized"
+errTokenInvalid:
+  id: "token tidak valid"
+  en: "token invalid"
+errTokenExpired:
+  id: "token kedaluarsa"
+  en: "token expired"

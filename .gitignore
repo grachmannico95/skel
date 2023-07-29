@@ -1,0 +1,7 @@
+/.vscode
+/dist
+/tmp
+/go.sum
+/resources/config.yaml
+/coverage.out
+/.env
